@@ -1,0 +1,661 @@
+/*GREEN= #179942
+GREY= #535353  */
+
+.grad {
+  background: #179942; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, white, #179942); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, white, #179942); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, white, #179942); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, white, #179942); /* Standard syntax */
+}
+
+.revealAnim img {
+  transition: transform .6s .9s;
+}
+.back {
+  transform:translate3d(-40%, 0, 0);
+}
+.front {
+  transform:translate3d(61.6%, 0, 0);
+}
+.side {
+  transform:translate3d(-338%, 0, 0);
+}
+.viewing-page-2 #revealAnim img {
+  transform: translate3d(0, 0, 0);
+}
+
+body{
+  margin:0
+  padding: 1em;
+  font-family: sans-serif;
+  font-weight: 100;
+  line-height: 2em;
+  /*background: url(../images/background.jpg);*/
+  font-size: 18px;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+h3{
+  font-size: 20px;
+}
+
+.mobile-display{
+  display: none;
+}
+
+.heading{
+  font-weight: 600;
+  font-size: 2em;
+  padding-bottom: 1em;
+  text-transform: capitalize;
+  font-style: none;
+  color: #179942;
+  font-family: 'Satisfy', cursive;
+}
+.d-block {
+  margin: auto;
+}
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+
+.main-container-wrapper{
+  max-width: 100%;
+}
+
+.header-container {
+  background:url(../images/hm1.jpeg)no-repeat fixed 100%;
+  background-size: cover;
+  background-position: 0px -632px;
+  height: 100vh;
+  background-size: cover;
+}
+
+#mainLogo{
+  width: 200px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  background-color: white;
+
+}
+
+nav {
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+nav ul:hover{
+  cursor: pointer;
+}
+
+header li{
+  display: inline;
+  padding: 1em;
+}
+
+a {
+  color: #535353;
+  text-decoration: none;
+
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+  cursor: grab;
+}
+
+.mobile {
+  display: none;
+}
+
+.main-nav-mobile{
+  display: none;
+}
+
+.about-container{
+      display: flex;
+      height: 122vh;
+      padding: 1em 2em;
+      justify-content: space-between;
+      align-items: center;
+      background: url(../images/ausicon_orange.png) no-repeat fixed 118%;
+      background-size: 70%;
+}
+
+.about-image{
+  height: 100vh;
+  width: 50%;
+  /*background: url(../images/CosmoCombe.jpeg) no-repeat fixed 100%;*/
+  background-size: contain;
+}
+
+.about {
+padding-right: 1em;
+background: white;
+width: 40%;
+padding: 2em 1em;
+
+}
+
+.half {
+  width: 50%;
+}
+
+.about-container img{
+  width: auto;
+    height: 800px;
+}
+
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5em 2em;
+  height: 40em;
+}
+
+.flex-start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5em 2em;
+  height: 40em;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+
+.pillars-imagery {
+  width: 19%;
+}
+.pillars-imagery img{
+  width: 50px;
+  margin: 2em;
+}
+
+.grey{
+  background-color: rgba(83, 83, 83, 0.38);
+
+}
+
+.grey h1 {
+  color: white;
+}
+
+.grey p {
+  color: white;
+}
+
+.brands{
+
+
+  display: flex;
+  height: 100%;
+  padding: 0;
+  flex-direction: column;
+}
+
+
+#brands{
+  width: 40%;
+}
+
+#brandsh1{
+  height: 1px;
+display: block;
+padding: 2em;
+}
+.brands-container{
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 2em 0;
+flex-direction: column;
+/*background: white;*/
+
+}
+.brands-imagery{
+  height: 170px;
+}
+
+.brand-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel{
+  margin:auto;
+  margin-top: 40px;
+    width: 100%!important;
+}
+
+.d-block{
+  width:100%!important;
+}
+
+.brands-text{
+  margin-top: 65px;
+  padding: 2em;
+
+}
+
+.right {
+  text-align: right;
+}
+
+.freight {
+  background: url(../images/freight.jpg) no-repeat fixed -52%;
+  background-size: contain;
+  display: flex;
+    justify-content: flex-end;
+    height: 40em;
+    align-items: center;
+    padding: 1em 2em;
+
+}
+
+.flex-end{
+  display: flex;
+  justify-content: flex-end;
+  height: 40em;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+.freight-text{
+  background: white;
+  width: 35%;
+  padding: 1em;
+}
+
+.distribution img{
+  width: 100%;
+  padding-right: 1em;
+}
+
+.distribution h1{
+  text-align:right;
+}
+.distribution-text{
+  width: 50%;
+  background: white;
+}
+
+.boxesMain{
+  background: url(../images/map.png)no-repeat fixed 26%;
+  background-size: 120%;
+  margin: 2em 0;
+
+}
+.grid{
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /*background-color: white;*/
+}
+
+.box {
+  width: 44%;
+  padding-right: 1em;
+}
+
+#boxes{
+  width: 40%;
+}
+
+span.bold{
+  font-weight: bold;
+  text-align: left;
+}
+
+.sales-channels .flex-between{
+  padding: 0;
+  align-items: flex-start;
+  height: 20em;
+}
+
+.sales-channels li{
+  width: 40%;
+}
+
+.sales-channels .flex-between div{
+  margin-right: 1em;
+  width: 30%;
+}
+
+.sales-channels .flex-between img{
+  height: 100%;
+}
+
+#retailers {
+  height: 75%;
+}
+
+.sales-channels{
+  padding: 2em;
+}
+
+.hongkong{
+      background: url(../images/wechat.jpeg) no-repeat fixed 100%;
+      background-size: contain;
+      flex-direction: column;
+      justify-content: center;
+      /* align-items: center; */
+      height: 100vh;
+      display: flex;
+
+}
+
+.marketing{
+  background: url(../images/wechat2.png) no-repeat fixed 98%;
+  background-size: 48%;
+  margin-top: 2em;
+}
+
+.hongkong p {
+  width: 42%;
+}
+
+.mobile-nav{
+  display: none;
+}
+
+#hamburger-button{
+  font-size: 30px;
+  padding: 15px;
+  color: #179942;
+}
+
+
+.contact {
+  padding: 4em 2em;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #179942;
+  color: white;
+}
+
+
+button{
+  border-radius: 10px;
+  color: white;
+  border: none;
+  background:white;
+  cursor: pointer;
+  color: #179942
+
+}
+footer{
+  display: flex;
+  justify-content: flex-star;
+
+
+}
+
+footer img{
+  width: 150px;
+  height: 150px;
+  padding: 30px;
+}
+
+input{
+  border-radius: 5px;
+}
+
+.abn{
+  text-align: right;
+  font-size: 10px;
+  color: black;
+  padding-left: 2em;
+}
+
+footer .navbar-nav{
+  flex-direction: row;
+  font-size: 10px;
+}
+
+footer li{
+  padding-left:10px;
+}
+
+/*MOBILE VIEW***********************/
+
+@media screen and (max-width: 1056px) {
+
+  .header-container{
+      background-size: cover;
+      background-position: 105% 33%;
+      height: 100vh;
+      background-size: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+
+.navbar-toggle
+{
+  background: white;
+}
+
+.mobile-display{
+  display: block;
+}
+
+.container-fluid{
+  margin-left: 0;
+}
+
+.navbar-nav{
+  text-align: right;
+}
+
+#mainLogo{
+  margin-right: 56px;
+}
+  body{
+    font-size: 10px;
+  }
+  .mobile-nav{
+    display: inline-block;
+    left: 693px;
+  }
+
+
+  nav ul{
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+
+  .main-nav {
+    display: none;
+  }
+  .main-nav-mobile{
+    display: block;
+  }
+
+  .about-container {
+  margin-top:0;
+  display: block;
+  height: 100%;
+  padding: 0;
+  background: url(../images/ausicon_orange.png)no-repeat fixed 108% 42%;
+  background-size: 50%;
+
+  }
+  .about{
+    width: 55%;
+    background: none;
+  }
+
+  .flex-between {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 0em 1em;
+    height: 30em;
+  }
+
+  .half{
+    width: 100%;
+  }
+
+  .half {
+        margin-bottom: 2rem;
+  }
+
+  h3{
+    font-size: 15px;
+  }
+
+  .flex-center {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+  }
+    .pillars-imagery {
+      width: 20%;
+    }
+
+    .pillars-imagery img {
+    width: 26px;
+    margin: 2em;
+  }
+
+  .brands{
+    padding: 1em;
+    height: 100%;
+  }
+
+  .brands-text{
+    margin-top: 0;
+  }
+
+  .brands-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+}
+
+.freight {
+  background: url(../images/freight.jpg) no-repeat fixed -57%;
+    background-size: 76%;
+}
+.freight-text{
+  background: rgba(255, 255, 255, 0.96);
+    width: 73%;
+    padding: 2em;
+}
+
+.distribution-text{
+  width: 100%;
+
+}
+
+.boxesMain{
+  height: 100vh;
+}
+
+.section {
+  background: rgba(255, 255, 255, 0.79);
+  width: 100%;
+  padding: 1em;
+}
+
+.marketing{
+  background: url(../images/wechat2.png) no-repeat fixed 94%;
+  background-size: 42%;
+  margin-top: 2em;
+}
+
+.marketing ul {
+    width: 78%;
+  }
+.sales-channels ul li {
+    width: 63%;
+}
+
+
+.freight{
+  background: white;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.hongkong{
+  background: white;
+
+}
+
+.hongkong img{
+  height: auto;
+  width: 100%;
+}
+
+.marketing {
+  background: white;
+}
+
+.marketing img{
+  width: 100%;
+  height: auto;
+}
+
+.sales-channels ul li{
+  width: 100%;
+}
+
+.marketing ul{
+  width: 90%;
+}
+
+.boxesMain{
+  background: white;
+  height: 100%;
+}
+
+.distribtion img{
+  width: 113%;
+height: auto;
+margin: 0 24px 10px 0;
+}
+
+.hongkong p{
+  width: 100%;
+}
+}
