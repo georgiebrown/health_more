@@ -458,8 +458,6 @@ footer li{
 @media screen and (max-width: 1056px) {
 
   .header-container{
-      background:url(../images/hm1.jpeg)no-repeat fixed 100%;
-      background-size: cover;
       background-position: 105% 33%;
       height: 100vh;
       background-size: 100%;
