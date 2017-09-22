@@ -147,7 +147,7 @@ nav ul li:hover {
   height: 100vh;
   width: 50%;
   /*background: url(../images/CosmoCombe.jpeg) no-repeat fixed 100%;*/
-  background-size: contain;
+  /*background-size: contain;*/
 }
 
 .about {
