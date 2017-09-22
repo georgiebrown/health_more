@@ -388,7 +388,6 @@ span.bold{
 
 #hamburger-button{
   font-size: 30px;
-  padding: 15px;
   color: #179942;
 }
 
@@ -461,6 +460,25 @@ footer li{
 }
 @media screen and (max-width: 768px) {
 
+.distribution img{
+  padding-right: 0;
+}
+
+.distribution h1{
+  text-align:left;
+}
+
+.distribution p{
+  text-align: left;
+}
+
+.navbar{
+  padding: .5em 0;
+}
+
+.container-fluid{
+  margin-right: 0;
+}
 .navbar-toggle
 {
   background: white;
@@ -479,7 +497,8 @@ footer li{
 }
 
 #mainLogo{
-  margin-right: 56px;
+  margin-right: 138px;
+  width: 152px;
 }
   body{
     font-size: 10px;
@@ -509,7 +528,7 @@ footer li{
   display: block;
   height: 100%;
   padding: 0;
-  background: url(../images/ausicon_orange.png)no-repeat fixed 108% 42%;
+  background: url(../images/ausorange.png)no-repeat fixed 108% 42%;
   background-size: 50%;
 
   }
@@ -577,8 +596,8 @@ footer li{
 }
 .freight-text{
   background: rgba(255, 255, 255, 0.96);
-    width: 73%;
-    padding: 2em;
+    width: 100%;
+
 }
 
 .distribution-text{
@@ -613,8 +632,8 @@ footer li{
 .freight{
   background: white;
   flex-direction: column;
-  align-items: flex-end;
   height: 100%;
+  padding: 0;
 }
 
 .hongkong{
@@ -653,6 +672,7 @@ footer li{
   width: 113%;
 height: auto;
 margin: 0 24px 10px 0;
+padding-right: 0;
 }
 
 .hongkong p{
