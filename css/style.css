@@ -2,11 +2,11 @@
 GREY= #535353  */
 
 .grad {
-  background: #179942; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, white, #179942); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, white, #179942); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, white, #179942); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, white, #179942); /* Standard syntax */
+  background: #B48A33; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, white, #B48A33); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, white, #B48A33); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, white, #B48A33); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, white, #B48A33); /* Standard syntax */
 }
 
 .revealAnim img {
@@ -30,21 +30,27 @@ body{
   padding: 1em;
   font-family: sans-serif;
   font-weight: 100;
-  line-height: 2em;
+  line-height: 1.5;
   /*background: url(../images/background.jpg);*/
-  font-size: 18px;
+  font-size: 15px;
   margin: 0;
 }
 
 h1 {
   margin: 0;
   font-weight: 300;
-  font-style: italic;
   font-size: 1.2em;
 }
 
 h3{
-  font-size: 20px;
+  font-size: 18px;
+  margin: 0
+  font-weight: bold;
+}
+
+p{
+  margin:0;
+  margin-bottom: 1em;
 }
 
 .mobile-display{
@@ -57,8 +63,8 @@ h3{
   padding-bottom: 1em;
   text-transform: capitalize;
   font-style: none;
-  color: #179942;
-  font-family: 'Satisfy', cursive;
+  color: #B48A33;
+
 }
 .d-block {
   margin: auto;
@@ -77,15 +83,15 @@ h3{
 }
 
 .header-container {
-  background:url(../images/hm1.jpeg)no-repeat fixed 100%;
+  background:url(../images/main-photo.jpg)no-repeat fixed;
   background-size: cover;
-  background-position: 0px -632px;
   height: 100vh;
   background-size: cover;
 }
 
 #mainLogo{
-  width: 200px;
+  width: 150px;
+  margin: 10px;
 }
 
 header{
@@ -99,6 +105,8 @@ header{
 nav {
   margin-right: 1em;
   margin-top: 1em;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-header{
@@ -160,12 +168,14 @@ nav ul li:hover {
 padding-right: 1em;
 background: white;
 width: 50%;
-padding: 2em 1em;
+
 
 }
 
 .half {
   width: 50%;
+  padding: 2em;
+
 }
 
 .about-container img{
@@ -195,6 +205,10 @@ padding: 2em 1em;
   padding: 1em;
 }
 
+.pillars{
+  padding: 2em;
+  width: 45%;
+}
 
 .pillars-imagery {
   width: 19%;
@@ -275,13 +289,13 @@ flex-direction: column;
 }
 
 .freight {
-  background: url(../images/freight.jpg) no-repeat fixed -52%;
-  background-size: contain;
+  background: url(../images/healthmore-truck.jpg) no-repeat fixed 100%;
+
   display: flex;
     justify-content: flex-end;
-    height: 40em;
+    height: 100vh;
     align-items: center;
-    padding: 1em 2em;
+
 
 }
 
@@ -296,7 +310,7 @@ flex-direction: column;
 .freight-text{
   background: white;
   width: 35%;
-  padding: 1em;
+  padding: 2em;
 }
 
 .distribution img{
@@ -304,17 +318,16 @@ flex-direction: column;
   padding-right: 1em;
 }
 
-.distribution h1{
-  text-align:right;
-}
+
 .distribution-text{
   width: 50%;
   background: white;
+  padding: 2em;
 }
 
 .boxesMain{
-  background: url(../images/map.png)no-repeat fixed 26%;
-  background-size: 120%;
+  background: url(../images/map.png)no-repeat fixed 100%;
+  background-size: 100%;
   margin: 2em 0;
 
 }
@@ -347,7 +360,7 @@ span.bold{
 }
 
 .sales-channels li{
-  width: 40%;
+  width: 52%;
 }
 
 .sales-channels .flex-between div{
@@ -379,11 +392,30 @@ span.bold{
 }
 
 .marketing{
-  background: url(../images/wechat2.png) no-repeat fixed 98%;
-  background-size: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 2em;
 }
+.videoDiv{
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  padding: 2em
+  overflow:hidden;
+  z-index: -1;
 
+}
+
+video{
+  margin-left: 300px;
+}
+
+
+.marketing-text{
+   height:100%; position: absolute; top: 0;
+   left: 2em;
+}
 .hongkong p {
   width: 42%;
 }
@@ -394,58 +426,54 @@ span.bold{
 
 #hamburger-button{
   font-size: 30px;
-  color: #179942;
+  color: #B48A33;
 }
 
 
 .contact {
-  padding: 4em 2em;
+  width: 100%
   text-align: center;
-  height: 100vh;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #179942;
+  background: black;
   color: white;
 }
 
+.two{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
 
 button{
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
   border: none;
-  background:white;
+  background:#B48A33;
   cursor: pointer;
-  color: #179942
-
-}
-footer{
-  display: flex;
-  justify-content: flex-star;
+  padding: 20px;
+  margin-top: 50px;
 
 
 }
+
 
 footer img{
   width: 150px;
-  height: 150px;
-  padding: 30px;
+  margin: 30px;
 }
 
 input{
   border-radius: 5px;
 }
 
-.abn{
-  text-align: right;
-  font-size: 10px;
-  color: black;
-  padding-left: 2em;
-}
+
 
 footer .navbar-nav{
-  flex-direction: row;
+
   font-size: 10px;
 }
 
@@ -458,9 +486,9 @@ footer li{
 @media screen and (max-width: 1056px) {
 
 .header-container{
-      background: url(../images/hm1mobile.jpeg)no-repeat 100%;
+
       background-position: 105% 33%;
-      height: 100vh;
+      height: 400px;
       background-size: 100%;
     }
 }
@@ -533,15 +561,17 @@ footer li{
   margin-top:0;
   display: block;
   height: 100%;
-  padding: 0;
-  background: url(../images/ausorangemobile.png)no-repeat 108% 42%;
-  background-size: 50%;
+  padding: 2em;
+  background: white;
+
 
   }
   .about{
-    width: 55%;
+    width: 100%;
     background: none;
   }
+
+
 
   .flex-between {
     display: flex;
@@ -562,6 +592,7 @@ footer li{
 
   h3{
     font-size: 15px;
+    font-weight: bold;
   }
 
   .flex-center {
@@ -597,8 +628,8 @@ footer li{
 }
 
 .freight {
-  background: url(../images/freight.jpg) no-repeat fixed -57%;
-    background-size: 76%;
+  background: url(../images/healthmore-truck.jpg) no-repeat fixed 100%;
+    background-size: 100%;
 }
 .freight-text{
   background: rgba(255, 255, 255, 0.96);
@@ -621,10 +652,8 @@ footer li{
   padding: 1em;
 }
 
-.marketing{
-  background: url(../images/wechat2.png) no-repeat fixed 94%;
-  background-size: 42%;
-  margin-top: 2em;
+.marketing video{
+
 }
 
 .marketing ul {
@@ -654,6 +683,7 @@ footer li{
 
 .marketing {
   background: white;
+  display: block;
 }
 
 .marketing img{
@@ -683,5 +713,39 @@ padding-right: 0;
 
 .hongkong p{
   width: 100%;
+}
+
+button{
+  margin-top: 0;
+  padding: 10px;
+}
+
+.two{
+  flex-direction: column;
+}
+
+.half{
+  margin-bottom: 0;
+
+}
+
+.pillars{
+width: 100%;
+}
+
+.marketing{
+  margin-top: 0;
+}
+
+video{
+  margin-left: 0;
+}
+
+.marketing-text{
+  position: initial
+}
+
+.videoBlock{
+  position: inherit;
 }
 }
