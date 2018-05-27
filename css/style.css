@@ -92,6 +92,7 @@ p{
 #mainLogo{
   width: 150px;
   margin: 10px;
+
 }
 
 header{
@@ -439,7 +440,7 @@ video{
   justify-content: center;
   align-items: center;
   background: black;
-  color: white;
+  color: #B48A33;
 }
 
 .two{
@@ -464,6 +465,8 @@ button{
 footer img{
   width: 150px;
   margin: 30px;
+  margin-bottom: 0;
+  
 }
 
 input{
