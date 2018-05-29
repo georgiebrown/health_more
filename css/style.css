@@ -408,7 +408,7 @@ span.bold{
 
 }
 
-video{
+.videoDiv img{
   margin-left: 300px;
 }
 
@@ -466,7 +466,7 @@ footer img{
   width: 150px;
   margin: 30px;
   margin-bottom: 0;
-  
+
 }
 
 input{
