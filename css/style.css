@@ -272,10 +272,12 @@ flex-direction: column;
 .carousel{
   margin:40px auto;
     width: 100%!important;
+    height: 407px;
 }
 
 .carousel-inner{
   overflow: hidden;
+  height: 407px;
 }
 
 
