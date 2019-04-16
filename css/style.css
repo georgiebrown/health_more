@@ -270,10 +270,14 @@ flex-direction: column;
 }
 
 .carousel{
-  margin:auto;
-  margin-top: 40px;
+  margin:40px auto;
     width: 100%!important;
 }
+
+.carousel-inner{
+  overflow: visible;
+}
+
 
 .d-block{
   width:100%!important;
